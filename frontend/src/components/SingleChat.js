@@ -15,7 +15,7 @@ import animationData from "../animations/typing.json";
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModel";
 import { ChatState } from "../Context/ChatProvider";
-const ENDPOINT = "https://khaitan-chatzone-ucw3.onrender.com/chats";
+const ENDPOINT = "https://khaitan-chatzone-ucw3.onrender.com/";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
