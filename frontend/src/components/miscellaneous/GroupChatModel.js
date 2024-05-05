@@ -137,6 +137,8 @@ const GroupChatModal = ({ children }) => {
             fontFamily="Work sans"
             display="flex"
             justifyContent="center"
+            bg={"linear-gradient(135deg, #90bafc, #4203a9)"}
+            color={"white"}
           >
             Create Group Chat
           </ModalHeader>

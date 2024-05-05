@@ -15,7 +15,7 @@ import animationData from "../animations/typing.json";
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModel";
 import { ChatState } from "../Context/ChatProvider";
-const ENDPOINT = "https://khaitan-chatzone-ucw3.onrender.com/";
+const ENDPOINT = "https://khaitan-chatzone-ucw3.onrender.com/"; // "http://localhost:5000";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
@@ -171,6 +171,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
             display="flex"
             justifyContent={{ base: "space-between" }}
             alignItems="center"
+            color={"white"}
           >
             <IconButton
               display={{ base: "flex", md: "none" }}
@@ -257,8 +258,11 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
           justifyContent="center"
           h="100%"
         >
-          <Text fontSize="3xl" pb={3} fontFamily="Work sans">
-            Click on a user to start chatting
+          <Text fontSize="3xl" pb={3} fontFamily="Work sans" color={"white"}>
+            Click on a user to start chat
+            <Text textAlign={"center"} color={"#95c0ff"}>
+              Khaitan ChatZone
+            </Text>
           </Text>
         </Box>
       )}

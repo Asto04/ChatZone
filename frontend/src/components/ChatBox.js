@@ -12,7 +12,7 @@ const Chatbox = ({ fetchAgain, setFetchAgain }) => {
       alignItems="center"
       flexDir="column"
       p={3}
-      bg="white"
+      bg="linear-gradient(135deg, #90bafc, #4203a9)"
       w={{ base: "100%", md: "68%" }}
       borderRadius="lg"
       borderWidth="1px"
