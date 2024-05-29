@@ -1,1 +1,1 @@
-https://khaitan-chatzone-ucw3.onrender.com/chats
+https://khaitan-chatzone-ucw3.onrender.com
